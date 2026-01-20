@@ -26,7 +26,7 @@
 
         .container{
             font-family: "Sligoil";
-            background-color: aquamarine;
+            /*background-color: aquamarine;*/
             width: 100vw;
             height: 100vh;
             display: inline-grid;
@@ -53,18 +53,24 @@
 
         p{
             font-weight: 900;
-            background-color: red;
+            /*background-color: red;*/
             padding: 0 0 0 0.5em;
 
         }
 
         em{
+            position: absolute;
             font-weight: 100;
-            font-size: 0.8em;
+            font-size: 0.6em;
+            top: 2em;
+            left: 0.5em;
+        }
+        #info{
+            position: relative;
         }
 
         .mx {
-            color: gray;
+            color: rgb(200, 200, 200);
         }
 
         /*.container p{
@@ -92,7 +98,7 @@
             <h2>sat</h2>
             <h2>sun</h2>
             <p class="ma">1</p>
-            <div class="ma">
+            <div class="ma" id="info">
                 <p>2</p>
                 <em>·Vinni·</em>
             </div>
@@ -121,7 +127,7 @@
             <p class="ma">25</p>
             <p class="ma">26</p>
             <p class="ma">27</p>
-            <div class="ma">
+            <div class="ma" id="info">
                 <p>28</p>
                 <em>·Ivan·</em>
             </div>    
